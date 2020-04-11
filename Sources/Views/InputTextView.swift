@@ -72,7 +72,7 @@ open class InputTextView: UITextView {
     }()
     
     /// The placeholder text that appears when there is no text. The default value is "New Message"
-    open var placeholder: String? = "New Message" {
+    open var placeholder: String? = "メッセージ内容イ..." {
         didSet {
             placeholderLabel.text = placeholder
         }
